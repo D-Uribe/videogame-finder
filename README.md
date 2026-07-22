@@ -1,16 +1,35 @@
-# React + Vite
+Videogame Finder 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app that lets you search any videogame using the RAWG API, featuring a retro arcade aesthetic, loading states, and error handling.
 
-Currently, two official plugins are available:
+Features
+🔍 Search any videogame by title
+🕹️ Retro arcade visual style with pixel font
+⏳ Loading spinner while fetching data
+❌ "Game not found" animation with red flash effect
+📋 Shows release date, rating, Metacritic score and supported platforms
+🚫 Empty search validation
+📱 Responsive design
+Technologies
+React
+CSS3
+RAWG Video Games Database API
+react-spinners
+Getting Started
+Clone the repository
+Install dependencies
+bash
+npm install
+Create a .env file in the root of the project
+VITE_API_KEY=your_api_key_here
+Get your free API key at rawg.io
+Run the app
+bash
+npm run dev
+Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Mostrar imagen
 
-## React Compiler
+Made by
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Diego Uribe — GitHub
