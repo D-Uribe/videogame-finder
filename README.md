@@ -60,7 +60,7 @@ This app uses the [RAWG Video Games Database API](https://rawg.io/apidocs). If y
 
 ## Webpage
 
-[Live Demo]([https://your-deploy-url.netlify.app](https://transcendent-piroshki-b2f704.netlify.app))
+https://app.netlify.com/projects/transcendent-piroshki-b2f704/overview
 
 ## Preview
 
